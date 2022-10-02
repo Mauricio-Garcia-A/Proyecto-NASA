@@ -3,5 +3,23 @@
 .container-SelectedEvent{
     background: $colorGradientBacground;
     height: 100vh;
+    
 
+}
+
+.conteiner-image-celestialBody-SelectedEvent{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.538);
+    position: relative;
+
+}
+
+.image-celestialBody-SelectedEvent {
+    width: 1000px;
+    height: auto;
+    position: absolute;
+    left: -300px;
+    top: -300px;
 }

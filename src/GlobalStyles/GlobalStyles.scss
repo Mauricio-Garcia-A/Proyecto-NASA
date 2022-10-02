@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: #fff;
  }
 body {
    background-image: url('../Images/backgroundImageSpace.png');
@@ -11,10 +12,6 @@ body {
   $colorGradientBacground:#00000087;     
  
 
- $color2:#e8452a;        // Color Titulo Secundario
- $color3: #333333;       // Color Parrafo 
- 
- $color4:rgb(0, 0, 255);
 
  .container-standar-GlobalStyle {
     background: rgba(218, 218, 218, 0.226);

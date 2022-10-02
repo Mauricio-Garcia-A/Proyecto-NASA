@@ -53,9 +53,11 @@ export default function GlobemapOfEvents(props) {
                         <button className='button-arrow-control-booton'><ArrowIcon type='left'width='25px' /></button>
                         <button className='button-arrow-control-left'><ArrowIcon type='left'width='25px' /></button>
                 </div>
+                {/*
                <div className='select-controls-GlobemapOfEvents'>
                     <SwitchControlsMap />
-                </div>                
+                </div> 
+                */}               
             </div>
      
             <div className='timeline-GlobemapOfEvents'>
