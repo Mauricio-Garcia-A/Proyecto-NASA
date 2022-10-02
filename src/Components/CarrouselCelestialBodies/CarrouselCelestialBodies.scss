@@ -1,0 +1,115 @@
+
+.container-controlsButtoms-CarrouselCelestialBodies{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    .button-arrow-left-CarrouselCelestialBodies {
+        background: none;
+        fill: rgb(255, 255, 255);
+        border: 0;
+        cursor: pointer;
+        display: flex;
+        flex-flow: row nowrap;
+        transition: 1s ease all ;
+
+        .icon-left-desactive {
+            opacity: 0.15;
+            transition: 1s ease all ;
+
+        }
+        .icon-left-active {
+            opacity: 0.5;
+            transition: 1s ease all ;
+
+        }
+        &:hover {
+            .icon-left-active {
+                opacity: 0.9;
+                transition: 1s ease all ;
+
+            }
+        }
+        .celestialBodies-left-visibilityOff {
+            visibility: hidden;
+            opacity: 0;
+            transition: 1s ease all ;
+
+        }
+        .celestialBodies-left-visibilityOn {
+            opacity: 1;
+            transition: 1s ease all ;
+
+        }
+    }
+    .button-arrow-right-CarrouselCelestialBodies {
+        background: none;
+        fill: rgb(255, 255, 255);
+        right: 0;
+        border: 0;
+        cursor: pointer;
+
+        display: flex;
+        flex-flow: row nowrap;
+
+        .icon-right-desactive {
+            opacity: 0.15;
+            transition: 1s ease all ;
+
+        }
+        .icon-right-active {
+            opacity: 0.5;
+            transition: 1s ease all ;
+
+        }
+        &:hover {
+            .icon-right-active {
+                opacity: 0.9;
+                transition: 1s ease all ;
+
+            }
+        }
+
+        .celestialBodies-right-visibilityOff {
+            visibility: hidden;
+            opacity: 0;
+            transition: 1s ease all ;
+
+        }
+        .celestialBodies-right-visibilityOn{
+            opacity: 1;
+            transition: 1s ease all ;
+
+        }
+    }
+    .image-celestialbody-button-ItemCelestialBody {
+        width: 80px;
+        height: auto;
+
+    }
+
+
+    .button-selector-CarrouselCelestialBodies{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 0;
+        background: white;
+        opacity: 0.5;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+        &.active {
+            transform: scale(1.2);
+            opacity: 0.9;
+        }
+    }
+}

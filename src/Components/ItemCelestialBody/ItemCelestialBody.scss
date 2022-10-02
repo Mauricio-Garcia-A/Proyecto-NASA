@@ -1,0 +1,22 @@
+
+.container-ItemCelestialBody {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+}
+
+.image-celestialBody-ItemCelestialBody {
+    width: 300px;
+    height: auto;
+}
+.seccion1-ItemCelestialBody {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+   
+
+}
+.seccion2-ItemCelestialBody {
+    width: 500px;
+    padding: 10px;
+}

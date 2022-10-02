@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+body {
+   background-image: url('../Images/backgroundImageSpace.png');
+   background-repeat: repeat;
+   background-attachment: fixed;
+   background-size: 100%;
+}
+  $colorGradientBacground:#00000087;     
+ 
+
+ $color2:#e8452a;        // Color Titulo Secundario
+ $color3: #333333;       // Color Parrafo 
+ 
+ $color4:rgb(0, 0, 255);
+
+ .container-standar-GlobalStyle {
+    background: rgba(218, 218, 218, 0.226);
+    backdrop-filter: blur(3px);
+
+    border-radius: 15px;
+    padding: 20px;
+ }
+
+ .button-standar-GlobalStyle {
+   padding: 3PX;
+    background: orange;
+    border-radius: 5px;
+    text-decoration: none;
+ }
+
+
+ .button-back-GlobalStyle {
+   width: 40px;
+   height: 40px;
+   border-radius: 25px;
+   border: 1px solid rgba(4, 4, 4, 0.185);
+   background: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   opacity: 0.3;
+   transition: 1s ease all ;
+   cursor: pointer;
+
+
+   &:hover {
+      opacity: 1;
+      box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.29);
+      border: 1px solid rgb(255, 255, 255);
+      transform: scale(1.1);
+   }
+
+   &:active {
+      background: rgb(238, 238, 238);
+      border: 1px solid rgb(237, 237, 237);
+      transition: 0s ease all ;
+   }
+}
