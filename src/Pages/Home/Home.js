@@ -1,12 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {getEventsMoon} from 'Services/getEventsMoon';
 import useSEO from '../../Hooks/useSEO';
 import './Home.scss'
 
 
 export default function Home(props) {
     useSEO({title:'HOME', description:'Bienvenidos AtroMap3D'})
-
+    const evensMoon= getEventsMoon()
+    
     return (
         <div className='container-Home'>
             <div className='container-standar-GlobalStyle'>
